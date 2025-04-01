@@ -10,7 +10,7 @@ export function RootLayout({ children }: PropsWithChildren) {
     <html lang="en">
       <body className={`${fontAtypDisplay.variable} antialiased`}>
         <Header />
-        <main className="container">{children}</main>
+        {children}
         <Footer />
       </body>
     </html>
