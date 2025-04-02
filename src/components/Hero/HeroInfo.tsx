@@ -18,9 +18,9 @@ export async function HeroInfo({}: Props) {
       md:mb-24"
     >
       <h1
-        className="text-6xl font-medium whitespace-pre-line
+        className="text-5xl font-medium whitespace-pre-line
         lg:whitespace-normal
-        md:text-4xl"
+        md:text-3xl"
       >
         {hero.title}
       </h1>

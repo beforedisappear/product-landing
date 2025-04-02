@@ -1,0 +1,13 @@
+.input {
+  border-color: #ffffff26;
+  background: linear-gradient(0deg, #ffffff0d, #ffffff0d),
+    linear-gradient(180deg, #6666660d, #ffffff0d);
+}
+
+.input:-webkit-autofill {
+  -webkit-appearance: none;
+  appearance: none;
+  background: pink;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+  color: inherit !important;
+}

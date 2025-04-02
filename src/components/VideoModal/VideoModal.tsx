@@ -21,19 +21,21 @@ export function VideoModal({ children }: IProps) {
   return (
     <Dialog>
       <DialogTrigger asChild>{children}</DialogTrigger>
-      <DialogContent className="sm:max-w-[425px]">
-        <DialogHeader>
-          <DialogTitle>Edit profile</DialogTitle>
-          <DialogDescription>
-            Make changes to your profile here. Click save when you're done.
-          </DialogDescription>
+      <DialogContent
+        className="w-full p-0 border-0 max-w-[1400px] h-full max-h-[90%] sm:max-w-[425px]"
+        hideCloseBtn
+      >
+        <DialogHeader className="hidden">
+          <DialogTitle>Youtube video</DialogTitle>
         </DialogHeader>
-        <div className="grid gap-4 py-4">
-          <div className="grid grid-cols-4 items-center gap-4"></div>
-        </div>
-        <DialogFooter>
-          <Button type="submit">Save changes</Button>
-        </DialogFooter>
+        <iframe
+          width="100%"
+          height="100%"
+          src={`https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1`}
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
       </DialogContent>
     </Dialog>
   );
