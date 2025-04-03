@@ -16,12 +16,12 @@ export function HeroVideo({}: Props) {
   return (
     <>
       <video className={cn(className, "block lg:hidden")} {...videoProps}>
-        <source src={"home-desktop.mp4"} />
-        <source src={"home-desktop.webm"} />
+        <source src={"/home/home-desktop.mp4"} />
+        <source src={"/home/home-desktop.webm"} />
       </video>
       <video className={cn(className, "hidden lg:block")} {...videoProps}>
-        <source src={"home-mobile.mp4"} />
-        <source src={"home-mobile.webm"} />
+        <source src={"/home/home-mobile.mp4"} />
+        <source src={"/home/home-mobile.webm"} />
       </video>
     </>
   );

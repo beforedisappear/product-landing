@@ -53,3 +53,27 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes scrollUp {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes scrollDown {
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.reviews-wrapper-up {
+  animation: scrollUp 40s linear infinite;
+  will-change: transform;
+}
+.reviews-wrapper-down {
+  animation: scrollDown 40s linear infinite;
+  will-change: transform;
+}

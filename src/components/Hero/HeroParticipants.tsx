@@ -4,10 +4,10 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/ui/Avatar/Avatar";
 interface Props {}
 
 const participantList = [
-  { img: "/avatar_1.svg" },
-  { img: "/avatar_2.svg" },
-  { img: "/avatar_3.svg" },
-  { img: "/avatar_4.svg" },
+  { img: "/avatars/avatar_1.svg" },
+  { img: "/avatars/avatar_2.svg" },
+  { img: "/avatars/avatar_3.svg" },
+  { img: "/avatars/avatar_4.svg" },
 ];
 
 export async function HeroParticipants({}: Props) {
