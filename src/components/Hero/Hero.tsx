@@ -7,8 +7,8 @@ interface Props {}
 export function Hero({}: Props) {
   return (
     <section
-      className="flex items-center w-full min-h-screen relative
-      md:items-end"
+      className="flex items-center w-full min-h-[calc(100vh-100px)] relative
+      md:items-end md:min-h-screen"
     >
       <HeroVideo />
 

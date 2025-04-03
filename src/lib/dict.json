@@ -5,7 +5,7 @@
   "hero": {
     "title": "E-Com 618: The Golden Ratio \n of E-Commerce Success",
     "subtitle": "A comprehensive service platform for entrepreneurs who value harmony and efficiency in business",
-    "button": "Unlock Your E-Commerce Potentia",
+    "button": "Unlock Your E-Commerce Potential",
     "participantsCounter": "500+ successful businesses empowered",
     "watch": "Watch Our Story"
   },
@@ -17,7 +17,7 @@
     "numberField": "Phone",
     "tgField": "Telegram username (optional)",
     "agree": "I agree to the Terms of Use and the conditions of personal data processing",
-    "submit": "Unlock Your E-Commerce Potentia",
+    "submit": "Unlock Your E-Commerce Potential",
     "toast": "Your participation request has been accepted"
   },
   "metrics": {
@@ -57,5 +57,20 @@
         "description": "описание преимуществ присоединения к сообществу успешных предпринимателей"
       }
     ]
+  },
+  "assessment": {
+    "title": "Evaluate your e-commerce potential",
+    "question": "What stage is your e-commerce business at?",
+    "answers": [
+      "Just starting out",
+      "Running but struggling to scale",
+      "Successfully growing but need optimization"
+    ],
+    "indicators": { "questions": "5 questions", "time": "3 minutes" },
+    "button": "Take the assessment"
+  },
+  "successStories": {
+    "title": "Client Success Stories",
+    "storyButton": "View Full Case Study"
   }
 }

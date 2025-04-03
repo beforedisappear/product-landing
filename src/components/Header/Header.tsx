@@ -14,7 +14,7 @@ export async function Header({}: Props) {
 
   return (
     <div
-      className="sticky top-0 z-10 bg-background w-full
+      className="sticky top-0 z-30 bg-background w-full
       md:bg-transparent md:backdrop-blur-md md:fixed"
     >
       <header

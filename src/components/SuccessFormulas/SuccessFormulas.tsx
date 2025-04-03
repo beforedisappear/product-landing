@@ -7,14 +7,14 @@ export async function SuccessFormulas({}: Props) {
   const { successFormulas } = await getDict();
 
   return (
-    <div
+    <section
       className="container grid grid-cols-2 gap-4 p-8
-      md:grid-cols-1"
+      md:grid-cols-1
+      sm:p-4"
     >
       <h2
-        className="text-2xl md:text-3xl font-semibold col-span-full mb-4
-        lg:text-center
-        sm:text-2xl"
+        className="text-2xl font-semibold col-span-full mb-4
+        lg:text-center"
       >
         {successFormulas.title}
       </h2>
@@ -46,6 +46,7 @@ export async function SuccessFormulas({}: Props) {
             >
               {title}
             </span>
+
             <span
               className="text-base text-gray-300 
               md:text-xs"
@@ -55,6 +56,6 @@ export async function SuccessFormulas({}: Props) {
           </div>
         </div>
       ))}
-    </div>
+    </section>
   );
 }

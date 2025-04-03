@@ -39,7 +39,7 @@ export async function HeroInfo({}: Props) {
         <div className="flex  flex-wrap items-center gap-4">
           <HeroBtn text={hero.button} />
 
-          <VideoModal>
+          <VideoModal videoId="dQw4w9WgXcQ">
             <HeroWatchBtn className="hidden rounded-2xl w-11 h-11 md:flex" />
           </VideoModal>
         </div>
