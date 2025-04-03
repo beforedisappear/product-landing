@@ -19,7 +19,7 @@ export async function SuccessFormulas({}: Props) {
         {successFormulas.title}
       </h2>
 
-      {successFormulas.items.map(({ title, description }, i) => (
+      {successFormulas.items.map(({ title, description, img }, i) => (
         <div
           key={i}
           className="flex flex-col relative
@@ -27,7 +27,7 @@ export async function SuccessFormulas({}: Props) {
         >
           <div className="flex items-center justify-center w-full h-full">
             <Image
-              src={`/formula_${i + 1}.webp`}
+              src={img}
               width={635}
               height={326}
               className="w-full"

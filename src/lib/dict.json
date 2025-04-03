@@ -31,30 +31,78 @@
     ]
   },
   "services": {
-    "title": "Our Services"
+    "title": "Our Services",
+    "slideBtn": "Request Service",
+    "slides": [
+      {
+        "title": "ONLINE SCHOOL",
+        "titleColor": "#B9FF77",
+        "subtitle": "Spring run",
+        "description": "Learn to analyze charts and assets, converting knowledge into stable results.",
+        "img": "/test.png",
+        "thumbImg": "/online-scholl.webp"
+      },
+      {
+        "title": "OFFLINE SCHOOL",
+        "titleColor": "#7D45E3",
+        "subtitle": "Spring run",
+        "description": "Trading training in Kyiv: surround yourself with like-minded people and active traders, get the knowledge and skills you need for stable results.",
+        "img": "/test.png",
+        "thumbImg": "/offline-scholl.webp"
+      },
+      {
+        "title": "WORKSHOP",
+        "titleColor": "#41888E",
+        "subtitle": "Spring run",
+        "description": "Improve your qualifications, fill up on practice and real trading experience, boosting your results and skills in trading.",
+        "img": "/test.png",
+        "thumbImg": "/workshop.webp"
+      },
+      {
+        "title": "MENTORSHIP",
+        "titleColor": "#FFAB31",
+        "subtitle": "BY CRYPTOLOGYkey",
+        "description": "Undergo personalized training with a ‘one-on-one’ approach, where it’s just you and your chosen mentor.",
+        "img": "/test.png",
+        "thumbImg": "/mentorship.webp"
+      },
+      {
+        "title": "Discord Nitro",
+        "titleColor": "#5B3FD4",
+        "subtitle": "",
+        "description": "Become part of a community of like-minded people and improve your skills in a motivating team, getting study materials and experience at live sessions from practitioners.",
+        "img": "/test.png",
+        "thumbImg": "/intro.webp"
+      }
+    ]
   },
   "successFormulas": {
     "title": "What does the trading training consist of?",
     "items": [
       {
         "title": "Dedicated Support",
-        "description": "описание персонального подхода к каждому клиенту"
+        "description": "описание персонального подхода к каждому клиенту",
+        "img": "/formula_1.webp"
       },
       {
         "title": "Proven Results",
-        "description": "примеры успешных проектов с показателями RO"
+        "description": "примеры успешных проектов с показателями RO",
+        "img": "/formula_2.webp"
       },
       {
         "title": "Proprietary Methodology",
-        "description": "особенности нашего метода работы, основанного на принципе золотого сечения"
+        "description": "особенности нашего метода работы, основанного на принципе золотого сечения",
+        "img": "/formula_3.webp"
       },
       {
         "title": "Proprietary Methodology",
-        "description": "особенности нашего метода работы, основанного на принципе золотого сечения"
+        "description": "особенности нашего метода работы, основанного на принципе золотого сечения",
+        "img": "/formula_4.webp"
       },
       {
         "title": "Community & Networking",
-        "description": "описание преимуществ присоединения к сообществу успешных предпринимателей"
+        "description": "описание преимуществ присоединения к сообществу успешных предпринимателей",
+        "img": "/formula_1.webp"
       }
     ]
   },

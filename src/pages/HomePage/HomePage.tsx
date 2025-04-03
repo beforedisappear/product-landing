@@ -12,7 +12,7 @@ export function HomePage({}: Props) {
     <>
       <Hero />
       <Metrics />
-      {/* <Services /> */}
+      <Services />
       <Assessment />
       <SuccessFormulas />
       <SuccessStories />

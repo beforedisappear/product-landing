@@ -56,6 +56,7 @@ module.exports = {
           5: "hsl(var(--chart-5))",
         },
       },
+      fontSize: { "4-5xl": ["2.75rem", { lineHeight: "3rem" }] },
       container,
       screens,
     },
