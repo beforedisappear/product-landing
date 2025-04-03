@@ -5,6 +5,7 @@ import { HeroParticipants } from "./HeroParticipants";
 import { getDict } from "@/lib/getDict";
 import { HeroWatchBtn } from "./HeroWatchBtn";
 import { VideoModal } from "../VideoModal/VideoModal";
+import { HeroBtn } from "./HeroBtn";
 
 interface Props {}
 
@@ -36,13 +37,7 @@ export async function HeroInfo({}: Props) {
         md:flex-col md:items-start"
       >
         <div className="flex  flex-wrap items-center gap-4">
-          <Button
-            size="lg"
-            className="w-fit h-12 py-[13px] px-[22px] rounded-xl"
-          >
-            <span className="font-light">{hero.button}</span>
-            <ArrowUpRight />
-          </Button>
+          <HeroBtn text={hero.button} />
 
           <VideoModal>
             <HeroWatchBtn className="hidden rounded-2xl w-11 h-11 md:flex" />

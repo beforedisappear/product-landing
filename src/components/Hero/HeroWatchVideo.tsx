@@ -14,7 +14,7 @@ export async function HeroWatchVideo({}: Props) {
       className="flex flex-col items-center justify-center w-1/3 gap-y-3
       md:hidden"
     >
-      <VideoModal>
+      <VideoModal videoId="dQw4w9WgXcQ">
         <HeroWatchBtn />
       </VideoModal>
 

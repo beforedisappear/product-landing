@@ -19,5 +19,43 @@
     "agree": "I agree to the Terms of Use and the conditions of personal data processing",
     "submit": "Unlock Your E-Commerce Potentia",
     "toast": "Your participation request has been accepted"
+  },
+  "metrics": {
+    "title": "We deliver the perfect balance of creativity and results",
+    "items": [
+      { "count": "3+", "text": "years of market expertise" },
+      { "count": "500+", "text": "successful e-commerce projects" },
+      { "count": "95%", "text": "client satisfaction rate" },
+      { "count": "150+", "text": "businesses scaled to 7 figures" },
+      { "count": "25+", "text": "e-commerce specialists on our team" }
+    ]
+  },
+  "services": {
+    "title": "Our Services"
+  },
+  "successFormulas": {
+    "title": "What does the trading training consist of?",
+    "items": [
+      {
+        "title": "Dedicated Support",
+        "description": "описание персонального подхода к каждому клиенту"
+      },
+      {
+        "title": "Proven Results",
+        "description": "примеры успешных проектов с показателями RO"
+      },
+      {
+        "title": "Proprietary Methodology",
+        "description": "особенности нашего метода работы, основанного на принципе золотого сечения"
+      },
+      {
+        "title": "Proprietary Methodology",
+        "description": "особенности нашего метода работы, основанного на принципе золотого сечения"
+      },
+      {
+        "title": "Community & Networking",
+        "description": "описание преимуществ присоединения к сообществу успешных предпринимателей"
+      }
+    ]
   }
 }

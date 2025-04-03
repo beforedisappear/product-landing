@@ -9,7 +9,7 @@ interface Props {
 }
 
 const navList = [
-  { title: "Services", url: "#1" },
+  { title: "Services", url: "#services" },
   { title: "Our Approach", url: "#2" },
   { title: "Pricing", url: "#3" },
   { title: "Case Studies", url: "#4" },

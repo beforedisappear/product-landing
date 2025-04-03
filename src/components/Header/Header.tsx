@@ -4,6 +4,8 @@ import { ContactUsModal } from "../ContactUsModal/ContactUsModal";
 import { HeaderSheet } from "./HeaderSheet";
 import { HeaderLogo } from "./HeaderLogo";
 import { HeaderNav } from "./HeaderNav";
+import { use } from "react";
+import { Context } from "@/providers/ContextProvider";
 
 interface Props {}
 

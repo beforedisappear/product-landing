@@ -11,9 +11,10 @@ import {
   DialogTrigger,
 } from "@/ui/Dialog/Dialog";
 
-import { useState, type ReactNode } from "react";
+import { use, useState, type ReactNode } from "react";
 import { ContactUsForm } from "./ContactUsForm";
 import { ContactUsModalDict } from "./ContactUsModal.types";
+import { Context } from "@/providers/ContextProvider";
 
 interface IProps {
   children: ReactNode;
@@ -21,14 +22,18 @@ interface IProps {
 }
 
 export function ContactUsModal({ children, dict }: IProps) {
-  const [isOpenModel, setIsOpenModal] = useState(false);
+  const context = use(Context);
+
+  if (!context) throw new Error("CONTEXT UNDEFINED");
+
+  const { setShowContactUsModal, showContactUsModal } = context;
 
   const onCloseModal = () => {
-    setIsOpenModal(false);
+    setShowContactUsModal(false);
   };
 
   return (
-    <Dialog open={isOpenModel} onOpenChange={setIsOpenModal}>
+    <Dialog open={showContactUsModal} onOpenChange={setShowContactUsModal}>
       <DialogTrigger asChild>{children}</DialogTrigger>
       <DialogContent
         className="max-w-[800px] h-[695px] rounded-xl border-2

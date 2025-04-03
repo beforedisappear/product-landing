@@ -1,3 +1,4 @@
+import { ContextProvider } from "@/providers/ContextProvider";
 import { ToastProvider } from "@/providers/ToastProvider";
 import { Footer } from "@/components/Footer/Footer";
 import { Header } from "@/components/Header/Header";
@@ -11,9 +12,11 @@ export function RootLayout({ children }: PropsWithChildren) {
     <html lang="en">
       <body className={`${fontAtypDisplay.variable} antialiased`}>
         <ToastProvider />
-        <Header />
-        {children}
-        <Footer />
+        <ContextProvider>
+          <Header />
+          {children}
+          <Footer />
+        </ContextProvider>
       </body>
     </html>
   );
