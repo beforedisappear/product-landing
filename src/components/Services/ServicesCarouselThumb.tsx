@@ -1,5 +1,3 @@
-import "./Services.css";
-
 import Image from "next/image";
 
 import type { ServicesSlide } from "./Services.types";
@@ -17,10 +15,9 @@ export const ServicesCarouselThumb = (props: Props) => {
   return (
     <div
       onClick={onClick}
-      className={cn(
-        "embla-thumbs__slide",
-        "flex relative w-[250px] h-[100px] mb-3 md:h-20"
-      )}
+      className="relative flex flex-[0_0_250px] w-[250px] h-[100px] mb-3 md:h-20 min-w-0 mr-[10px] 
+      md:flex-[0_0_140px]
+      last:mr-0"
     >
       <Image
         src={thumbImg}

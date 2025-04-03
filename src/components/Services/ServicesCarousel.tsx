@@ -1,7 +1,5 @@
 "use client";
 
-import "./Services.css";
-
 import { Context } from "@/providers/ContextProvider";
 import { ServicesCarouselSlide } from "./ServicesCarouselSlide";
 import { ServicesCarouselThumb } from "./ServicesCarouselThumb";
@@ -56,8 +54,8 @@ export function ServicesCarouselWithThumbs({ slides, slideBtn }: Props) {
 
   return (
     <div className="flex flex-col gap-y-3">
-      <div className="embla" ref={emblaMainRef}>
-        <div className="embla__container">
+      <div className="overflow-hidden" ref={emblaMainRef}>
+        <div className="flex">
           {slides.map((el, i) => (
             <ServicesCarouselSlide
               key={i}
@@ -69,9 +67,9 @@ export function ServicesCarouselWithThumbs({ slides, slideBtn }: Props) {
         </div>
       </div>
 
-      <div className="embla-thumbs">
-        <div className="embla-thumbs__viewport" ref={emblaThumbsRef}>
-          <div className="embla-thumbs__container">
+      <div className="mt-[0.8rem]">
+        <div className="overflow-hidden" ref={emblaThumbsRef}>
+          <div className="flex flex-row">
             {slides.map((item, index) => (
               <ServicesCarouselThumb
                 key={index}

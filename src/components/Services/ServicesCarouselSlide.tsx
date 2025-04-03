@@ -1,5 +1,3 @@
-import "./Services.css";
-
 import Image from "next/image";
 
 import { ServicesSlide } from "./Services.types";
@@ -26,7 +24,11 @@ export function ServicesCarouselSlide(props: Props) {
   } = props;
 
   return (
-    <div className={cn("embla__slide", "flex gap-8 lg:gap-4 relative")}>
+    <div
+      className="flex flex-[0_0_100%] gap-8 relative w-full h-[400px] min-w-0 mr-[15px] 
+      lg:gap-4 
+      last:mr-0"
+    >
       <div
         className="rounded-xl overflow-hidden w-1/2
         lg:w-full lg:max-w-[300px]
