@@ -19,12 +19,12 @@ export async function Footer({}: Props) {
         alt=""
         width={1457}
         height={396}
-        className="absolute -z-[1] left-0 bottom-0 max-w-full"
+        className="absolute z-0 left-0 bottom-0 max-w-full"
       />
 
-      <footer className="container py-12 !px-12 flex flex-col gap-11 border border-b-0 rounded-t-xl bg-background">
+      <footer className="container py-12 !px-12 flex flex-col gap-11 border border-b-0 rounded-t-xl bg-[#0000004a] backdrop-blur-xl">
         <div
-          className="flex items-center gap-6
+          className="flex items-center gap-6 
           lg:flex-col"
         >
           <Image

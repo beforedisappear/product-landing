@@ -1,5 +1,7 @@
 "use client";
 
+import { ArrowUpRight } from "lucide-react";
+
 import {
   Form,
   FormField,
@@ -12,15 +14,15 @@ import {
 import { Input } from "@/ui/Input/Input";
 import { Checkbox } from "@/ui/Checkbox/Checkbox";
 import { zodResolver } from "@hookform/resolvers/zod";
-
-import { useForm } from "react-hook-form";
-import { ContactUsFormSchema } from "./ContactUsForm.schema";
 import { Button } from "@/ui/Button/Button";
 
-import type { ContactUsModalDict } from "./ContactUsModal.types";
-import { ArrowUpRight } from "lucide-react";
 import { sendApplicationForm } from "./ContactUsForm.action";
+
 import { useToast } from "@/hooks/use-toast";
+import { useForm } from "react-hook-form";
+import { ContactUsFormSchema } from "./ContactUsForm.schema";
+
+import type { ContactUsModalDict } from "./ContactUsModal.types";
 
 interface Props {
   dict: ContactUsModalDict;

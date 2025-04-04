@@ -2,8 +2,8 @@ import Image from "next/image";
 
 import { ServicesSlide } from "./Services.types";
 import { Button } from "@/ui/Button/Button";
-import { fontAtomicMarker } from "@/fonts/atomicMarker";
-import { cn } from "@/lib/utils";
+// import { fontAtomicMarker } from "@/fonts/atomicMarker";
+// import { cn } from "@/lib/utils";
 import { ArrowUpRight } from "lucide-react";
 
 interface Props extends ServicesSlide {
@@ -55,14 +55,14 @@ export function ServicesCarouselSlide(props: Props) {
         >
           {title}
         </h3>
-        <span
+        {/* <span
           className={cn(
             fontAtomicMarker.className,
             "text-4xl -mt-[46px] md:text-2xl md:-mt-[48px]"
           )}
         >
           {subtitle}
-        </span>
+        </span> */}
 
         <p>{description}</p>
 

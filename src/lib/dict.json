@@ -35,46 +35,46 @@
     "slideBtn": "Request Service",
     "slides": [
       {
-        "title": "ONLINE SCHOOL",
+        "title": "Marketing Strategy",
         "titleColor": "#B9FF77",
         "subtitle": "Spring run",
-        "description": "Learn to analyze charts and assets, converting knowledge into stable results.",
+        "description": "Comprehensive market research and strategic planning that creates the foundation for e-commerce success",
         "img": "/test.png",
         "thumbImg": "/online-scholl.webp",
         "url": "https://t.me/Cryptology_feedback/978"
       },
       {
-        "title": "OFFLINE SCHOOL",
+        "title": "Advertising Creatives",
         "titleColor": "#7D45E3",
         "subtitle": "Spring run",
-        "description": "Trading training in Kyiv: surround yourself with like-minded people and active traders, get the knowledge and skills you need for stable results.",
+        "description": "Eye-catching visual and textual content that captures audience attention and drives engagement with your brand",
         "img": "/test.png",
         "thumbImg": "/offline-scholl.webp",
         "url": "https://t.me/Cryptology_feedback/978"
       },
       {
-        "title": "WORKSHOP",
+        "title": "Copywriting",
         "titleColor": "#41888E",
         "subtitle": "Spring run",
-        "description": "Improve your qualifications, fill up on practice and real trading experience, boosting your results and skills in trading.",
+        "description": "Persuasive, conversion-focused text that tells your story and motivates customers to take action",
         "img": "/test.png",
         "thumbImg": "/workshop.webp",
         "url": "https://t.me/Cryptology_feedback/978"
       },
       {
-        "title": "MENTORSHIP",
+        "title": "Design Services",
         "titleColor": "#FFAB31",
         "subtitle": "BY CRYPTOLOGYkey",
-        "description": "Undergo personalized training with a ‘one-on-one’ approach, where it’s just you and your chosen mentor.",
+        "description": "Professional visual solutions that enhance your brand identity and create meaningful connections with your audience",
         "img": "/test.png",
         "thumbImg": "/mentorship.webp",
         "url": "https://t.me/Cryptology_feedback/978"
       },
       {
-        "title": "Discord Nitro",
+        "title": "Website Development",
         "titleColor": "#5B3FD4",
         "subtitle": "",
-        "description": "Become part of a community of like-minded people and improve your skills in a motivating team, getting study materials and experience at live sessions from practitioners.",
+        "description": "Custom-built digital platforms that combine functionality, aesthetics, and user experience to represent your business online",
         "img": "/test.png",
         "thumbImg": "/intro.webp"
       }
@@ -85,32 +85,27 @@
     "items": [
       {
         "title": "Dedicated Support",
-        "description": "описание персонального подхода к каждому клиенту",
+        "description": "Personalized attention with tailored solutions for your specific needs. Each client receives a dedicated account manager and direct access to specialists who understand your unique business goals.",
         "img": "/formulas/formula_1.webp",
         "url": "https://t.me/Cryptology_feedback/978"
       },
       {
         "title": "Proven Results",
-        "description": "примеры успешных проектов с показателями RO",
+        "description": "Measurable outcomes with documented success. Our clients achieve an average 300% ROI, 67% increase in conversion rates, and 42% growth in customer lifetime value.",
         "img": "/formulas/formula_2.webp",
         "url": "https://t.me/Cryptology_feedback/978"
       },
       {
         "title": "Proprietary Methodology",
-        "description": "особенности нашего метода работы, основанного на принципе золотого сечения",
+        "description": "Our exclusive Golden Ratio approach balances creativity and analytics, creating strategies that appeal to both logic and emotion for maximum market impact.",
         "img": "/formulas/formula_3.webp",
         "url": "https://t.me/Cryptology_feedback/978"
       },
       {
         "title": "Proprietary Methodology",
-        "description": "особенности нашего метода работы, основанного на принципе золотого сечения",
+        "description": "Access to a thriving network of successful entrepreneurs. Connect at exclusive events, form valuable partnerships, and gain competitive insights from industry leaders.",
         "img": "/formulas/formula_4.webp",
         "url": "https://t.me/Cryptology_feedback/978"
-      },
-      {
-        "title": "Community & Networking",
-        "description": "описание преимуществ присоединения к сообществу успешных предпринимателей",
-        "img": "/formulas/formula_1.webp"
       }
     ]
   },
@@ -130,138 +125,94 @@
     "storyButton": "View Full Case Study",
     "items": [
       {
-        "name": "Naumi",
-        "date": "27.01.2025",
-        "text": "I'm absolutely satisfied with everything. Of course, I wish the course were split into two separate ones—one for crypto and one for Forex—so you could focus on just Forex without spreading yourself too thin. Huge thanks to my curator, Oleg, who always explained everything clearly and in a timely manner. The training is worth the money and the knowledge gained. Thanks to the Cryptology team!",
-        "url": "https://t.me/Cryptology_feedback/978"
+        "name": "Daniel Foster",
+        "date": "10.02.2025",
+        "text": "The marketing strategy developed for our startup was nothing short of transformative. The team took time to understand our niche market and created a roadmap that perfectly positioned us against larger competitors. Within three months, we've increased market share by 18% and finally have clear direction. Their data-driven approach was exactly what we needed.",
+        "url": "/"
       },
       {
-        "name": "Arsen",
-        "date": "27.01.2025",
-        "text": "I really enjoyed the training and I'm very happy that I found my calling where I can continue to grow. Of course, it's a bit scary, because you guided me along this path and now I'm on my own in front of the charts. All the knowledge and experience I gained came from you, and I'm grateful—it was incredibly valuable. I don't want to say goodbye, but that's how it is! Thank you so much once again!!!",
-        "url": "https://t.me/Cryptology_feedback/978"
+        "name": "Rebecca Collins",
+        "date": "22.03.2025",
+        "text": "I was skeptical about investing in a formal marketing strategy, but it's been the best business decision I've made this year. Their comprehensive analysis identified several untapped market segments and provided actionable steps to reach them. Our Q1 sales are up 27% compared to last year, and we're implementing phase two of their recommendations now.",
+        "url": "/"
       },
       {
-        "name": "Vlad",
-        "date": "23.01.2025",
-        "text": "First of all, I'd like to thank the entire team for the knowledge they provided us with, especially Kobe—one love. From an organizational standpoint, I'd highlight how Telegram threads are managed, as well as the nearly 24/7 student support service—it's top-notch. Personally, I realized that my decision to join this training was one of the best in my life. Initially, I came here to earn money and gain freedom, but during the training itself, I realized that I found a passion I plan to pursue long term, along with a large community that keeps things fun.",
-        "url": "https://t.me/Cryptology_feedback/978"
+        "name": "Andrew Harrison",
+        "date": "15.01.2025",
+        "text": "Working with this team changed how we approach our entire business. Their marketing strategy wasn't just a document—it was a complete blueprint for growth with clear KPIs and implementation timelines. They understood our industry challenges and turned them into opportunities. Six months later, we've doubled our qualified leads and increased customer retention by 34%.",
+        "url": "/"
       },
       {
-        "name": "@MKS@",
-        "date": "14.10.2024",
-        "text": "I haven't fully finished the course yet, but I can already say a few words about it. \n First, a huge thanks to the manager who convinced me to purchase the training—they are very good at selling. (All I originally wanted was to find out the course price 😅) \n Secondly, the system for organizing the training and sending out any necessary notifications is extremely well set up. \n I had experience studying in a different field before, but Cryptology’s approach is very organized and accessible. \n About the team hosting the streams: you guys are awesome; everything was explained simply and clearly. \n By the end of this part of the training, I realized how little I actually knew. I spent almost a year self-studying, yet in the first month of this course I learned more than I did in all that time on my own. \n What I find most comfortable is that you can tackle the lessons anytime and submit your homework, which will be reviewed with feedback within a day. Since I combined it with my job—studying mostly at night—that was perfect. 👍 \n Many thanks to the entire team! 🤝 ",
-        "url": "https://t.me/Cryptology_feedback/978"
+        "name": "Olivia Wright",
+        "date": "05.03.2025",
+        "text": "The advertising creatives delivered by this team completely revitalized our brand image. The visuals were striking and on-brand, while the messaging resonated perfectly with our target demographic. Our social media engagement increased by 215% within the first week of launching the new campaign. True professionals who understand how to make brands stand out.",
+        "url": "/"
       },
       {
-        "name": "Mark Upton",
-        "date": "09.10.2024",
-        "text": "First of all, I'd like to thank the entire team for the knowledge they provided us with, especially Kobe—one love. From an organizational standpoint, I'd highlight how Telegram threads are managed, as well as the nearly 24/7 student support service—it's top-notch. Personally, I realized that my decision to join this training was one of the best in my life. Initially, I came here to earn money and gain freedom, but during the training itself, I realized that I found a passion I plan to pursue long term, along with a large community that keeps things fun.",
-        "url": "https://t.me/Cryptology_feedback/978"
+        "name": "James Peterson",
+        "date": "28.02.2025",
+        "text": "After disappointing results with two previous agencies, I was amazed by what this team accomplished. Their advertising concepts were innovative yet authentic to our brand voice. The A/B testing they conducted ensured we launched with the most effective materials, resulting in a 67% improvement in conversion rates. Worth every penny and more.",
+        "url": "/"
       },
       {
-        "name": "Viktor L",
-        "date": "26.09.2024",
-        "text": " Hello. Thank you so much for this course and for all the knowledge. I want to thank each lecturer for the streams, where everything was broken down in detail, and also give a huge thanks to my curator for helping me through every confusing moment and promptly checking my homework. And a big thanks to all the curators, who provided feedback and assistance. \n Special thanks to Golos za kadrom and Garry for their valuable advice, which helped me leave a toxic relationship and fully concentrate on my studies. Additional thanks to Nikita for the macroeconomics lessons—this was the hardest subject for me, but I ended up really enjoying it. \n These were an interesting three months, where we could chat with each other and offer tips. Competing in the leaderboard was exciting, and while I didn’t get a prize, that competition pushed me to be more responsible with the material and homework. I started to understand how it all works much better. Comparing my knowledge of trading and personal mindset before and after the course, the difference is massive. \n I realize my journey is just beginning, but I recognized my emotional weaknesses during the tests on the course, and I know now what to work on. \n It might not be easy at first, but you gave me the drive and determination not to give up. Thank you so much to the entire CRYPTOLOGY team for opening the door to a whole new world and giving me the knowledge in a field I hope to tie my future to. \n See you on your other resources❤️ ",
-        "url": "https://t.me/Cryptology_feedback/978"
-      },
-
-      {
-        "name": "Ярик",
-        "date": "26.09.2024",
-        "text": "First of all, I'd like to thank the entire team for the knowledge they provided us with, especially Kobe—one love. From an organizational standpoint, I'd highlight how Telegram threads are managed, as well as the nearly 24/7 student support service—it's top-notch. Personally, I realized that my decision to join this training was one of the best in my life. Initially, I came here to earn money and gain freedom, but during the training itself, I realized that I found a passion I plan to pursue long term, along with a large community that keeps things fun.",
-        "url": "https://t.me/Cryptology_feedback/978"
+        "name": "Katherine Simmons",
+        "date": "01.04.2025",
+        "text": "I needed advertising that would work across multiple platforms while maintaining a consistent brand message. What I received exceeded all expectations—creative concepts that adapted beautifully from print to digital without losing impact. Our recent campaign generated 3x the leads of previous efforts, and customers specifically mentioned our ads when making purchases.",
+        "url": "/"
       },
       {
-        "name": "Dan",
-        "date": "02.09.2024",
-        "text": "I can say with confidence that for anyone who wants to understand how asset markets work and eventually become a specialist, this school offers the best solution. Here, the material is presented in the simplest terms. Even those completely new to trading can easily understand everything, as they answer any questions right away. Plus, there’s a curator who checks your homework, explains, and helps you. The tools they teach do work; you just have to find your own style. Thanks a lot to the team for this training. If you’re on the fence about whether to enroll—definitely do it. 🤝",
-        "url": "https://t.me/Cryptology_feedback/978"
+        "name": "Thomas Greene",
+        "date": "30.01.2025",
+        "text": "The copywriting service transformed our product descriptions from basic specifications to compelling stories that connect with customers. Since implementing the new copy, our average order value has increased by 23%, and customer feedback mentions how helpful our product pages have become. Their ability to balance technical information with emotional appeal is remarkable.",
+        "url": "/"
       },
       {
-        "name": "Елена Балабанова",
-        "date": "26.07.2024",
-        "text": "I'm satisfied with everything and excited to continue with the next packages. \n A huge thanks to the lecturers: they explain everything clearly on the streams and break it down thoroughly. I'm a psychologist by education and by nature, and I came into trading as a complete beginner. Listening to all the terminology was like hearing another language—I couldn’t grasp the meaning at all. Now, I hear and, more importantly, understand everything being said on streams, even those outside of the school. \n My deepest gratitude! You are top-notch. 🔝",
-        "url": "https://t.me/Cryptology_feedback/978"
+        "name": "Laura Martinez",
+        "date": "18.03.2025",
+        "text": "As a technical company, we struggled to communicate our value proposition in accessible language. The copywriting team bridged that gap perfectly, creating content that explains complex concepts clearly without talking down to our audience. Our whitepaper downloads have increased 85% with the revamped messaging, and sales calls are much more productive now that prospects better understand our offerings.",
+        "url": "/"
       },
       {
-        "name": "Dmytro Kovalenko",
-        "date": "22.07.2024",
-        "text": "Thanks to the team for the course! I was amazed by the professional approach to teaching: the intensive classes, the prepared video and text materials, homework and tests, live streams, and the support in chats—it's awesome! I recommend going for Proficiency or higher—the additional knowledge on the stock market and more detailed trading approaches really pay off, at least for me. Special thanks to Madman for his dedication, hours of lessons, and especially the psychology-related topics. Extra thanks to golos za kadrom—after your stream with Garry and Dtek-Trader, I reached out to the support team and all my questions about starting the program got resolved. P.S. The return on investment in this new (for me) direction of trading has dropped from an unknown infinity to actual, understandable timelines. I highly recommend it.",
-        "url": "https://t.me/Cryptology_feedback/978"
+        "name": "Brian Wilson",
+        "date": "12.02.2025",
+        "text": "The email sequences crafted by the copywriting team have revolutionized our customer journey. Open rates jumped from 22% to 47%, and click-through rates more than doubled. What impressed me most was how they captured our casual, friendly tone while still maintaining professionalism. They've given our brand a distinctive voice that customers now recognize and trust.",
+        "url": "/"
       },
       {
-        "name": "Pavel B",
-        "date": "28.06.2024",
-        "text": "Good afternoon!!! \n I'm writing to express my heartfelt gratitude to the entire Cryptology team, and especially my mentor, Aleksa, for the priceless knowledge and support I received from the recent trading courses. \n The comprehensive curriculum and expert guidance significantly improved my understanding of trading strategies, market analysis, and risk management. I truly appreciate the time and effort that you and your team invested in creating such an enriching educational experience. \n The practical knowledge and hands-on training proved to be incredibly helpful, allowing me to apply theoretical concepts to real-life scenarios. I'm confident that the skills I've gained will be immensely beneficial in my future trading. \n Once again, thank you for your dedication and commitment to providing top-notch education. I'm extremely grateful for the opportunity to learn from such professionals. \n I’d like to highlight Aleksa as a TOP mentor who genuinely tried to share her experience and knowledge with us. She was basically available 24/7 for these three months. I can say it's thanks to her that I understood so much and started applying my newly acquired knowledge and her recommendations in intraday trading. I'm very glad I ended up in her group!!!",
-        "url": "https://t.me/Cryptology_feedback/978"
+        "name": "Alexandra Miller",
+        "date": "25.03.2025",
+        "text": "The rebrand completed by the design team exceeded our highest expectations. They created a sophisticated visual identity that positions us perfectly in our industry while standing out from competitors. The comprehensive style guide they provided ensures consistency across all touchpoints, and our team loves having clear direction for all visual communications.",
+        "url": "/"
       },
       {
-        "name": "Anastasiia",
-        "date": "27.06.2024",
-        "text": "Many thanks to the Cryptology team for all the knowledge provided! The course stood out with the amount of material and the number of streams, which helped clarify any remaining questions. All information was presented in a very structured way, letting you accumulate knowledge from the basics to more advanced topics—so by the end, everything is neatly organized in your mind instead of being chaotic. Another plus is that different lecturers conducted backtests, so you get to see a variety of trading approaches. \n I also want to point out the chat support team, which patiently answered a ton of questions, seemingly 24/7. Personally, the feedback from my curator in the platform chat was enough, but it’s great that there are multiple ways to get help. Thank you @foxe4 for always assisting me with any questions I had while doing homework. \n This training is 100% worth every minute and every cent. I highly recommend it to anyone still hesitating!",
-        "url": "https://t.me/Cryptology_feedback/978"
+        "name": "Christopher Johnson",
+        "date": "24.01.2025",
+        "text": "We hired the design team for what was initially just packaging redesign, but their work was so impressive that we expanded the project to include all marketing materials. Their designs elevated our brand perception immediately—retailers have commented on the professional look, and consumers are sharing photos of our packaging on social media. A worthy investment that's already paying dividends.",
+        "url": "/"
       },
       {
-        "name": "Roma Kostiuk",
-        "date": "22.06.2024",
-        "text": "The information is very useful and abundant. My teacher is Mado, I am very thankful to him for the helpful information and assistance in solving all the unclear questions! There is indeed a lot of information, it took me 3 months to grasp all the material, and another month or two for practice.",
-        "url": "https://t.me/Cryptology_feedback/978"
+        "name": "Victoria Adams",
+        "date": "22.02.2025",
+        "text": "The infographics and data visualizations created by the design team transformed our annual report from a document people dreaded to one they actively share. Complex information became accessible and engaging through their thoughtful design approach. Our stakeholders have specifically mentioned how much they appreciate the clarity and visual appeal of this year's communications.",
+        "url": "/"
       },
       {
-        "name": "Artem V",
-        "date": "23.06.2024",
-        "text": "Very good training. As you progress through the lessons, a cumulative effect starts to work. The material layers on top of each other, and a full understanding of the entire material begins to form. The mentors are very attentive and help with any unclear situation. This training will give you answers to the question of what real analysis is and how to work with it. Highly recommend!",
-        "url": "https://t.me/Cryptology_feedback/978"
+        "name": "Nicholas Walker",
+        "date": "12.03.2025",
+        "text": "Our e-commerce website rebuild was a complex project with tight deadlines, but the development team delivered flawlessly. The new site is not only visually stunning but also significantly faster and more intuitive for customers. Conversion rates increased by 42% in the first month after launch, and cart abandonment dropped by 38%. Their technical expertise combined with strategic thinking made all the difference.",
+        "url": "/"
       },
       {
-        "name": "Kisser",
-        "date": "25.06.2024",
-        "text": "Good afternoon! I would like to thank Cryptology for the training. Special thanks to our mentor Mado for his patience and great delivery of information. During the training, my understanding of the market improved, even though this wasn’t my first training.",
-        "url": "https://t.me/Cryptology_feedback/978"
+        "name": "Stephanie Rogers",
+        "date": "08.01.2025",
+        "text": "After struggling with a website that couldn't handle our growth, we invested in custom development. The result is a robust platform that scales with our business and integrates seamlessly with all our systems. Page load times decreased by 67%, and our team can now make content updates without technical assistance. The development process was collaborative and transparent from start to finish.",
+        "url": "/"
       },
       {
-        "name": "Diana Birgen",
-        "date": "25.06.2024",
-        "text": " I really enjoyed the training. I purchased the Supercharged package and I’m very happy with it. After 3 months, I already have a very broad and deep understanding of the trading profession. \n I really enjoyed learning under the mentorship of our curator Mado. He is always very friendly and understanding. He explains the material in great detail and in a way that’s easy to understand. It was extremely comfortable and pleasant to learn. And most importantly, he knows how to encourage you in moments when you start losing hope about understanding the material. 😅 \n I’m very grateful to Mado for \"guiding me by the hand\" throughout the training. \n I plan to continue learning at Cryptology. 🙏🏻👌 ",
-        "url": "https://t.me/Cryptology_feedback/978"
-      },
-      {
-        "name": "Я",
-        "date": "24.06.2024",
-        "text": "The best approach and training, understanding, quality, and clear explanations. The best approach to students, full explanation of the material.",
-        "url": "https://t.me/Cryptology_feedback/978"
-      },
-
-      {
-        "name": "Dima",
-        "date": "24.06.2024",
-        "text": " I am extremely satisfied with the training at Cryptology School. \n The journey was not easy, I spent it on homework and charts. \n But I got the desired result — I started live trading, which showed real trading, and during the training and trading process, it became clear what to work on. I personally became more disciplined, confident, and stress-resistant thanks to trading, and this is just the beginning. \n Workshop, here I come!",
-        "url": "https://t.me/Cryptology_feedback/978"
-      },
-      {
-        "name": "Andrey",
-        "date": "28.06.2024",
-        "text": "I wanted to understand the reason for price movement up or down, the logic — and that’s exactly what I learned. Thank you for the course, I’m glad I took it!",
-        "url": "https://t.me/Cryptology_feedback/978"
-      },
-      {
-        "name": "Max",
-        "date": "27.06.2024",
-        "text": " Good afternoon! I just finished Supercharged 12 and didn’t expect it to be so deep and interesting!!! The knowledge base is simply superb (I have something to compare it to). A huge thank you to everyone for your hard work!!! \n I want to thank our mentor Sasha for his patience and attention, as well as all the traders who led QA sessions and lectures. The main thing is to keep going and keep developing!!! After the training, I decided to go to the Workshop for sure. Thank you for the best training and the best traders; it’s a pleasure to absorb knowledge from them!!!",
-        "url": "https://t.me/Cryptology_feedback/978"
-      },
-      {
-        "name": "NB",
-        "date": "24.06.2024",
-        "text": "Thank you very much for the training, you really opened my eyes to the crypto, forex, and index markets. Top-level training at a reasonable price, a lot of useful information and practice. Top teachers who explain clearly and concisely, no fluff!",
-        "url": "https://t.me/Cryptology_feedback/978"
-      },
-      {
-        "name": "NB",
-        "date": "23.06.2024",
-        "text": "This is the best educational product. \n I haven’t found better training than yours (I have something to compare it to). \n Thanks to the entire Cryptology Key team for spending your time on us. \n After the training, I have a clear understanding of my next steps, and a better understanding of the market!",
-        "url": "https://t.me/Cryptology_feedback/978"
+        "name": "Matthew Carter",
+        "date": "17.02.2025",
+        "text": "The website development team created a custom solution that perfectly addressed our unique business needs. They built sophisticated functionality while maintaining an intuitive user experience—no small feat. Since launching the new site, we've seen a 54% increase in time spent on key pages and a 29% improvement in conversion. Moreover, their training ensured our team could maintain and update the site independently.",
+        "url": "/"
       }
     ]
   },
@@ -426,8 +377,25 @@
       }
     ]
   },
-  "footer": {
+  "contacts": {
     "title": "The golden ratio is not just a number — it's the formula for e-commerce harmony",
+    "items": [
+      {
+        "value": "+78005553535",
+        "name": "Phone"
+      },
+      {
+        "value": "hello@ecom618.com",
+        "name": "Email"
+      },
+      {
+        "value": "Kingston, New York 12401, United States",
+        "name": "Address"
+      }
+    ]
+  },
+  "footer": {
+    "title": "We believe in the perfect balance of art and science in e-commerce",
     "copyright": "© E-Com 618, 2025 - All rights reserved",
     "links": [
       { "name": "Terms of Service", "url": "/" },
