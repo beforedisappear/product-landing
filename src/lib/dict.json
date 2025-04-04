@@ -265,6 +265,62 @@
       }
     ]
   },
+  "insights": {
+    "title": "E-Commerce Insights",
+    "items": [
+      {
+        "title": "How to optimize your product descriptions for higher conversion",
+        "tag": {
+          "title": "E-COMMERCE",
+          "color": "#36ff56",
+          "bgColor": "#18300b"
+        },
+        "date": "2 days ago",
+        "url": "#",
+        "img": "/news/news_1.png"
+      },
+      {
+        "title": "Social media advertising: latest trends and strategies",
+        "tag": {
+          "title": "MARKETING",
+          "color": "#aadb19",
+          "bgColor": "#373c0c"
+        },
+        "date": "2 days ago",
+        "url": "#",
+        "img": "/news/news_2.png"
+      },
+      {
+        "title": "E-commerce design psychology: colors that sell",
+        "tag": { "title": "DESIGN", "color": "#b0ffef", "bgColor": "#0c2f3c" },
+        "date": "2 days ago",
+        "url": "#",
+        "img": "/news/news_3.png"
+      },
+      {
+        "title": "Building an effective email marketing funnel",
+        "tag": {
+          "title": "MARKETING",
+          "color": "#aadb19",
+          "bgColor": "#373c0c"
+        },
+        "date": "1 week ago",
+        "url": "#",
+        "img": "/news/news_4.png"
+      },
+      {
+        "title": "How to analyze your e-commerce metrics correctly",
+        "tag": {
+          "title": "E-COMMERCE",
+          "color": "#36ff56",
+          "bgColor": "#18300b"
+        },
+        "date": "1 week ago",
+        "url": "#",
+        "img": "/news/news_5.png"
+      }
+    ]
+  },
   "media": {
     "title": "E-Com 618 in the media",
     "items": [

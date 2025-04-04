@@ -1,3 +1,6 @@
 .assessment {
   background-image: url("/background.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
 }
