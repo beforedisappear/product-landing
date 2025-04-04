@@ -4,24 +4,34 @@ import Image from "next/image";
 import Link from "next/link";
 
 import useEmblaCarousel from "embla-carousel-react";
+import { useCallback } from "react";
 
 import { sizes } from "@/tailwind/screens";
 
 import type { MediaItem } from "./Media.types";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 
 interface Props {
   items: MediaItem[];
 }
 
 export function MediaContent({ items }: Props) {
-  const [emblaRef] = useEmblaCarousel({
+  const [emblaRef, emblaApi] = useEmblaCarousel({
     align: "start",
     active: false,
     breakpoints: { [`(max-width: ${sizes["sm"]})`]: { active: true } },
   });
 
+  const scrollPrev = useCallback(() => {
+    if (emblaApi) emblaApi.scrollPrev();
+  }, [emblaApi]);
+
+  const scrollNext = useCallback(() => {
+    if (emblaApi) emblaApi.scrollNext();
+  }, [emblaApi]);
+
   return (
-    <div ref={emblaRef} className="overflow-hidden">
+    <div ref={emblaRef} className="overflow-hidden relative">
       <div
         className="grid grid-cols-3 gap-6 
         xl:grid-cols-2
@@ -32,7 +42,7 @@ export function MediaContent({ items }: Props) {
             key={i}
             href={item.url}
             className="relative w-full rounded-xl overflow-hidden
-            sm:flex-[0_0_100%] sm:min-w-0"
+            sm:flex-[0_0_100%] sm:min-w-0 sm:rounded-none"
           >
             <Image
               src={item.img}
@@ -54,6 +64,23 @@ export function MediaContent({ items }: Props) {
           </Link>
         ))}
       </div>
+
+      <button
+        style={{ transform: "translate(0%, -50%)" }}
+        className="hidden absolute top-1/2 left-2 items-center justify-center h-9 w-9 rounded-full bg-[#ffffff1a]
+        sm:flex"
+        onClick={scrollPrev}
+      >
+        {<ArrowLeft />}
+      </button>
+      <button
+        style={{ transform: "translate(0%, -50%)" }}
+        className="hidden absolute top-1/2 right-2 items-center justify-center h-9 w-9 rounded-full bg-[#ffffff1a]
+        sm:flex"
+        onClick={scrollNext}
+      >
+        <ArrowRight />
+      </button>
     </div>
   );
 }

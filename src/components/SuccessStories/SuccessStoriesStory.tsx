@@ -38,14 +38,14 @@ export function SuccessStoriesStory(props: Props) {
 
       <p className={cn(s.text, "text-gray-500 text-base")}>{text}</p>
 
-      <Link
+      {/* <Link
         href={url}
         target="_blank"
         rel="noopener noreferrer"
         className={cn(buttonVariants({ variant: "link" }), "w-fit p-0")}
       >
         {storyButton}
-      </Link>
+      </Link> */}
     </li>
   );
 }

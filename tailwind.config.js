@@ -57,6 +57,7 @@ module.exports = {
         },
       },
       fontSize: { "4-5xl": ["2.75rem", { lineHeight: "3rem" }] },
+      translate: { center: "translate(-50%, -50%)" },
       container,
       screens,
     },
