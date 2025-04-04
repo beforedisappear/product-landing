@@ -6,3 +6,27 @@
   -webkit-line-clamp: 6;
   line-clamp: 6;
 }
+
+@keyframes scrollUp {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes scrollDown {
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.reviews_wrapper_up {
+  animation: scrollUp 15s linear infinite;
+  will-change: transform;
+}
+.reviews_wrapper_down {
+  animation: scrollDown 15s linear infinite;
+  will-change: transform;
+}

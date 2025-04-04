@@ -367,5 +367,63 @@
         "url": "#"
       }
     ]
+  },
+  "pricing": {
+    "title": "Investment in Your E-Commerce Success",
+    "items": [
+      {
+        "title": "STARTER",
+        "price": 199,
+        "description": "Perfect for new e-commerce businesses",
+        "buttonText": "Get Started",
+        "benefitList": [
+          "5 Social Media Ad Designs",
+          "3 Product Descriptions",
+          "Basic Logo Design",
+          "Simple Landing Page",
+          "Basic SEO Setup",
+          "2 Rounds of Revisions",
+          "Support: Email Only",
+          "Delivery: 7 Business Days"
+        ]
+      },
+      {
+        "title": "GROWTH",
+        "price": 499,
+        "description": "Ideal for scaling businesses",
+        "buttonText": "Choose Growth",
+        "benefitList": [
+          "10 Social Media Ad Designs",
+          "1 Video Ad (30 sec)",
+          "Complete Product Description Set (up to 10)",
+          "Full Brand Identity Package",
+          "Complete E-commerce Website",
+          "Email Marketing Sequence (5 emails)",
+          "Basic Market Research Report",
+          "3 Rounds of Revisions",
+          "Support: Email + Messenger",
+          "Delivery: 14 Business Days"
+        ]
+      },
+      {
+        "title": "PREMIUM",
+        "price": 999,
+        "description": "For established brands seeking excellence",
+        "buttonText": "Go Premium",
+        "benefitList": [
+          "Unlimited Ad Designs (3-month period)",
+          "3 Video Ads (15/30/60 sec)",
+          "Complete Copywriting Package",
+          "Advanced E-commerce Website with Custom Features",
+          "Comprehensive Brand Identity System",
+          "Full Marketing Strategy & Implementation Plan",
+          "Competitor Analysis",
+          "Performance Tracking Dashboard",
+          "Unlimited Revisions",
+          "Support: Dedicated Account Manager",
+          "Delivery: Priority (Custom Timeline)"
+        ]
+      }
+    ]
   }
 }

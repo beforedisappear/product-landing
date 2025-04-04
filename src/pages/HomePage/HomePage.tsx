@@ -6,6 +6,7 @@ import { Insights } from "@/components/Insights/Insights";
 import { Services } from "@/components/Services/Services";
 import { SuccessFormulas } from "@/components/SuccessFormulas/SuccessFormulas";
 import { SuccessStories } from "@/components/SuccessStories/SuccessStories";
+import { Pricing } from "@/components/Pricing/Pricing";
 
 interface Props {}
 
@@ -15,11 +16,12 @@ export function HomePage({}: Props) {
       <Hero />
       <Metrics />
       <Services />
-      <Assessment />
+      <Assessment />  
       <SuccessFormulas />
       <SuccessStories />
       <Insights />
       <Media />
+      <Pricing />
     </>
   );
 }

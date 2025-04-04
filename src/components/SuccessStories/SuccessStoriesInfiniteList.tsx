@@ -2,6 +2,8 @@ import { cn } from "@/lib/utils";
 import { SuccessStory } from "./SuccessStories.types";
 import { SuccessStoriesStory } from "./SuccessStoriesStory";
 
+import s from "./SuccessStories.module.css";
+
 interface Props {
   storyButton: string;
   stories: SuccessStory[];
@@ -15,8 +17,8 @@ export function SuccessStoriesInfiniteList(props: Props) {
   return (
     <ul
       className={cn("flex flex-col w-full gap-4", className, {
-        ["reviews-wrapper-up"]: type === "up",
-        ["reviews-wrapper-down"]: type === "down",
+        [s.reviews_wrapper_up]: type === "up",
+        [s.reviews_wrapper_down]: type === "down",
       })}
     >
       {[...stories, ...stories, ...stories].map((item, index) => (

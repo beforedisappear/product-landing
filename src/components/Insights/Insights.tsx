@@ -9,7 +9,7 @@ export async function Insights({}: Props) {
   } = await getDict();
 
   return (
-    <div className="container flex flex-col gap-6 py-12">
+    <section className="container flex flex-col gap-6 py-12">
       <h2
         className="text-2xl font-semibold
           lg:text-center"
@@ -18,6 +18,6 @@ export async function Insights({}: Props) {
       </h2>
 
       <InsightsContent items={items} />
-    </div>
+    </section>
   );
 }
