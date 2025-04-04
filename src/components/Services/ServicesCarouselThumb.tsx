@@ -25,6 +25,9 @@ export const ServicesCarouselThumb = (props: Props) => {
         width={250}
         height={100}
         className="rounded-lg w-full h-full"
+        priority={false}
+        decoding="async"
+        fetchPriority="low"
       />
 
       <div

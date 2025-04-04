@@ -24,6 +24,8 @@ export function SuccessStoriesStory(props: Props) {
               src={`/memojis/memoji-${index}.webp`}
               alt={`participant №${index}`}
               className="w-10 h-10"
+              decoding="async"
+              loading="lazy"
             />
             <AvatarFallback>{index + 1}</AvatarFallback>
           </Avatar>

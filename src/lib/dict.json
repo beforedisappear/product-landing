@@ -264,5 +264,52 @@
         "url": "https://t.me/Cryptology_feedback/978"
       }
     ]
+  },
+  "media": {
+    "title": "E-Com 618 in the media",
+    "items": [
+      {
+        "title": "LinkedIn",
+        "count": "25,000+",
+        "unit": "followers",
+        "img": "/media/media_1.webp",
+        "url": "#"
+      },
+      {
+        "title": "Instagram",
+        "count": "45,000+",
+        "unit": "followers",
+        "img": "/media/media_2.webp",
+        "url": "#"
+      },
+      {
+        "title": "Facebook",
+        "count": "30,000+",
+        "unit": "followers",
+        "img": "/media/media_3.webp",
+        "url": "#"
+      },
+      {
+        "title": "YouTube",
+        "count": "15,000+",
+        "unit": "followers",
+        "img": "/media/media_4.webp",
+        "url": "#"
+      },
+      {
+        "title": "Founder's Profile (Name)",
+        "count": "20,000+",
+        "unit": "followers",
+        "img": "/media/media_5.webp",
+        "url": "#"
+      },
+      {
+        "title": "E-Commerce Community",
+        "count": "20,000+",
+        "unit": "members",
+        "img": "/media/media_6.webp",
+        "url": "#"
+      }
+    ]
   }
 }
