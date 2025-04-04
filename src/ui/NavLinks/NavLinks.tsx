@@ -8,7 +8,7 @@ interface Props {
   onClickOnLink?: () => void;
 }
 
-const navList = [
+const navLinkList = [
   { title: "Services", url: "#services" },
   { title: "Our Approach", url: "#2" },
   { title: "Pricing", url: "#3" },
@@ -16,10 +16,10 @@ const navList = [
   { title: "Blog", url: "#5" },
 ];
 
-export function HeaderNav({ className, onClickOnLink }: Props) {
+export function NavLinks({ className, onClickOnLink }: Props) {
   return (
     <div className={cn("flex gap-x-4 lg:flex-col lg:gap-y-8", className)}>
-      {navList.map(({ title, url }) => (
+      {navLinkList.map(({ title, url }) => (
         <Link
           key={title}
           href={url}

@@ -3,9 +3,7 @@ import { HeaderConsultationBtn } from "./HeaderConsultationBtn";
 import { ContactUsModal } from "../ContactUsModal/ContactUsModal";
 import { HeaderSheet } from "./HeaderSheet";
 import { HeaderLogo } from "./HeaderLogo";
-import { HeaderNav } from "./HeaderNav";
-import { use } from "react";
-import { Context } from "@/providers/ContextProvider";
+import { NavLinks } from "@/ui/NavLinks/NavLinks";
 
 interface Props {}
 
@@ -24,7 +22,7 @@ export async function Header({}: Props) {
         <div className="flex items-center gap-x-10">
           <HeaderLogo />
 
-          <HeaderNav className="lg:hidden" />
+          <NavLinks className="lg:hidden" />
         </div>
 
         <ContactUsModal dict={contactUsModal}>

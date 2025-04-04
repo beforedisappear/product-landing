@@ -72,7 +72,10 @@ export function InsightsContent({ items }: Props) {
               />
 
               <div className="absolute top-0 left-0 flex flex-col justify-end w-full h-full p-6 gap-1">
-                <div className="flex items-center gap-2">
+                <div
+                  className="flex items-center gap-2
+                  md:justify-between"
+                >
                   <span
                     style={{ color: tag.color, background: tag.bgColor }}
                     className="p-2 rounded-lg text-sm font-medium"
@@ -94,7 +97,7 @@ export function InsightsContent({ items }: Props) {
 
       <button
         style={{ transform: "translate(0%, -50%)" }}
-        className="hidden absolute top-1/2 left-2 items-center justify-center h-9 w-9 rounded-full bg-[#ffffff1a]
+        className="hidden absolute top-1/2 left-3 items-center justify-center h-12 w-12 rounded-full bg-[#ffffff1a]
         sm:flex"
         onClick={scrollPrev}
       >
@@ -102,7 +105,7 @@ export function InsightsContent({ items }: Props) {
       </button>
       <button
         style={{ transform: "translate(0%, -50%)" }}
-        className="hidden absolute top-1/2 right-2 items-center justify-center h-9 w-9 rounded-full bg-[#ffffff1a]
+        className="hidden absolute top-1/2 right-3 items-center justify-center h-12 w-12 rounded-full bg-[#ffffff1a]
         sm:flex"
         onClick={scrollNext}
       >

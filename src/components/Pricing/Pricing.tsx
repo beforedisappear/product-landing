@@ -27,8 +27,8 @@ export const Pricing = async () => {
   return (
     <section
       id="pricing"
-      className="container flex flex-col gap-6 py-32
-      sm:py-24"
+      className="container flex flex-col gap-6 py-12
+      sm:py-4"
     >
       <h2 className="text-2xl font-semibold text-center">{title}</h2>
       {/* <h3 className="text-xl text-center text-muted-foreground pt-4 pb-8">

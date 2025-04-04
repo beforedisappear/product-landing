@@ -10,14 +10,15 @@ import {
   SheetTrigger,
 } from "@/ui/Sheet/Sheet";
 import { HeaderLogo } from "./HeaderLogo";
-import { HeaderNav } from "./HeaderNav";
+import { NavLinks } from "@/ui/NavLinks/NavLinks";
 import { ContactUsModal } from "../ContactUsModal/ContactUsModal";
 import { HeaderConsultationBtn } from "./HeaderConsultationBtn";
 import { Button } from "@/ui/Button/Button";
 
+import { useState } from "react";
+
 import type { ContactUsModalDict } from "../ContactUsModal/ContactUsModal.types";
 import type { HeaderDict } from "./Header.types";
-import { useState } from "react";
 
 interface Props {
   dict: { contactUsModal: ContactUsModalDict; header: HeaderDict };
@@ -48,7 +49,7 @@ export function HeaderSheet({ dict }: Props) {
           <SheetTitle className="hidden">Header Sheet</SheetTitle>
         </SheetHeader>
 
-        <HeaderNav onClickOnLink={onClickOnLink} />
+        <NavLinks onClickOnLink={onClickOnLink} />
 
         <ContactUsModal dict={dict.contactUsModal}>
           <HeaderConsultationBtn text={dict.header.button} />

@@ -11,7 +11,10 @@ export async function Media({}: Props) {
   const { media } = await getDict();
 
   return (
-    <div className="container flex flex-col gap-6 py-12">
+    <div
+      className="container flex flex-col gap-6 py-12
+      sm:py-4"
+    >
       <h2
         className="text-2xl font-semibold
         lg:text-center"
