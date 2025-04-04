@@ -45,7 +45,7 @@ export function InsightsContent({ items }: Props) {
               key={index}
               href={url}
               className={cn(
-                `relative w-full h-full border 
+                `relative w-full h-full 
                 sm:flex-[0_0_100%] sm:min-w-0 sm:rounded-none`,
                 {
                   ["col-start-1 col-end-4 lg:col-auto"]: index === 0,
