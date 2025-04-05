@@ -9,11 +9,11 @@ interface Props {
 }
 
 const navLinkList = [
-  { title: "Services", url: "#services" },
-  { title: "Our Approach", url: "#formulas" },
-  { title: "Client Success Stories", url: "#stories" },
-  { title: "Blog", url: "#insights" },
-  { title: "Pricing", url: "#pricing" },
+  { title: "Services", url: "/#services" },
+  { title: "Our Approach", url: "/#formulas" },
+  { title: "Client Success Stories", url: "/#stories" },
+  { title: "Blog", url: "/#insights" },
+  { title: "Pricing", url: "/#pricing" },
 ];
 
 export function NavLinks({ className, onClickOnLink }: Props) {
