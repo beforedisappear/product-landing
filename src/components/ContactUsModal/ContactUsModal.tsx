@@ -36,7 +36,7 @@ export function ContactUsModal({ children, dict }: IProps) {
     <Dialog open={showContactUsModal} onOpenChange={setShowContactUsModal}>
       <DialogTrigger asChild>{children}</DialogTrigger>
       <DialogContent
-        className="max-w-[800px] h-[695px] rounded-xl border-2
+        className="max-w-[800px] h-[695px] rounded-xl border-2 overflow-y-auto max-h-[90vh]
         md:max-w-[425px] md:h-auto"
       >
         <DialogHeader>
