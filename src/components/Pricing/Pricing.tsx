@@ -1,5 +1,5 @@
 import { getDict } from "@/lib/getDict";
-import { Button } from "@/ui/Button/Button";
+import { cn } from "@/lib/utils";
 import {
   Card,
   CardContent,
@@ -8,12 +8,15 @@ import {
   CardHeader,
   CardTitle,
 } from "@/ui/Card/Card";
-import { Check } from "lucide-react";
 import { PricingBtn } from "./PricingBtn";
+import { Badge } from "@/ui/Badge/Badge";
+
+import { packageIcons } from "./Pricing.data";
 
 interface PricingProps {
   title: string;
   price: number;
+  popular: 0 | 1;
   description: string;
   buttonText: string;
   benefitList: string[];
@@ -27,7 +30,7 @@ export const Pricing = async () => {
   return (
     <section
       id="pricing"
-      className="container flex flex-col gap-6 py-12
+      className="container flex flex-col gap-6 py-12 scroll-m-14
       sm:py-4"
     >
       <h2 className="text-2xl font-semibold text-center">{title}</h2>
@@ -37,19 +40,22 @@ export const Pricing = async () => {
       </h3> */}
 
       <div className="grid grid-cols-3 gap-8 lg:grid-cols-1">
-        {items.map((pricing) => (
+        {items.map((pricing, packageIndex) => (
           <Card
             key={pricing.title}
-            className="drop-shadow-xl shadow-black/10 dark:shadow-white/10 bg-transparent"
+            className={cn("shadow-black/10 bg-transparent ", {
+              ["shadow-amber-500 shadow-[0_15px_60px_-5px_rgba(0,0,0,0.3)]"]:
+                pricing.popular === 1,
+            })}
           >
             <CardHeader>
               <CardTitle className="flex item-center justify-between">
                 {pricing.title}
-                {/* {pricing.popular === PopularPlanType.YES ? (
+                {pricing.popular === 1 ? (
                   <Badge variant="secondary" className="text-sm text-primary">
-                    Most popular
+                    Popular
                   </Badge>
-                ) : null} */}
+                ) : null}
               </CardTitle>
               <div>
                 <span className="text-3xl font-bold">${pricing.price}</span>
@@ -67,9 +73,9 @@ export const Pricing = async () => {
 
             <CardFooter className="flex">
               <div className="space-y-4">
-                {pricing.benefitList.map((benefit: string) => (
+                {pricing.benefitList.map((benefit: string, index) => (
                   <span key={benefit} className="flex">
-                    <Check className="text-green-500" />{" "}
+                    {packageIcons[packageIndex]?.[index]}{" "}
                     <h3 className="ml-2">{benefit}</h3>
                   </span>
                 ))}

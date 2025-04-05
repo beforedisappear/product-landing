@@ -3,4 +3,5 @@ export type SuccessStory = {
   date: string;
   text: string;
   url: string;
+  avatar: string;
 };

@@ -3,12 +3,14 @@ import { MailPlusIcon, MapPinCheck, Phone } from "lucide-react";
 
 import { getDict } from "@/lib/getDict";
 import { cn } from "@/lib/utils";
+import { Button } from "@/ui/Button/Button";
+import { ContactsBtn } from "./ContactsBtn";
 
 interface Props {}
 
 export async function Contacts({}: Props) {
   const {
-    contacts: { title, items },
+    contacts: { title, items, button },
   } = await getDict();
 
   return (
@@ -19,6 +21,9 @@ export async function Contacts({}: Props) {
       <h2 className="text-base font-semibold text-center w-11/12 mx-auto">
         {title}
       </h2>
+
+      <ContactsBtn text={button} />
+
       <div
         className="flex gap-8
         md:flex-col"

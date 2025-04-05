@@ -16,7 +16,7 @@ export async function Media({}: Props) {
       sm:py-4"
     >
       <h2
-        className="text-2xl font-semibold
+        className="text-2xl font-semibold scroll-m-14
         lg:text-center"
       >
         {media.title}

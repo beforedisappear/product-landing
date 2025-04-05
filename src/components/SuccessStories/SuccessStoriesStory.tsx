@@ -13,15 +13,15 @@ interface Props extends SuccessStory {
 }
 
 export function SuccessStoriesStory(props: Props) {
-  const { index, name, date, text, url, storyButton } = props;
+  const { index, name, date, text, avatar } = props;
 
   return (
     <li className="flex flex-col p-6 gap-y-4 rounded-xl border">
-      <div className="flex items-center justify-between">
+      <div className="flex items-center gap-x-2 justify-between">
         <div className="flex items-center gap-3">
           <Avatar className="w-10 h-10">
             <AvatarImage
-              src={`/memojis/memoji-${index}.webp`}
+              src={avatar}
               alt={`participant №${index}`}
               className="w-10 h-10"
               decoding="async"

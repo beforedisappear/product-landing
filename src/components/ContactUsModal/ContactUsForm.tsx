@@ -54,7 +54,7 @@ export function ContactUsForm({ dict, onCloseModal }: Props) {
       <form
         onSubmit={onSubmit}
         autoComplete="off"
-        className="flex flex-col flex-grow gap-y-6"
+        className="flex flex-col flex-grow gap-y-4"
       >
         <FormField
           control={form.control}

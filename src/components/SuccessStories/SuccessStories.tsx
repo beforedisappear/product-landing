@@ -18,13 +18,13 @@ export async function SuccessStories({}: Props) {
 
   return (
     <section
-      className="container py-8 flex flex-col gap-y-8
+      id="stories"
+      className="container py-8 flex flex-col gap-y-8 scroll-m-16
       sm:py-4"
     >
       <h2
-        className="flex items-center gap-2 mx-auto text-2xl md:text-3xl font-semibold
-        text-center
-        sm:text-2xl"
+        className="flex items-center gap-2 mx-auto text-2xl font-semibold
+        text-center"
       >
         <Quote className="rotate-180" />
         <span>{title}</span>

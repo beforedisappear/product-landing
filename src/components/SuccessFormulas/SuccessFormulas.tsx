@@ -8,7 +8,8 @@ export async function SuccessFormulas({}: Props) {
 
   return (
     <section
-      className="container grid grid-cols-2 gap-4 p-8
+      id="formulas"
+      className="container grid grid-cols-2 gap-4 p-8 scroll-m-16
       md:grid-cols-1
       sm:p-4"
     >

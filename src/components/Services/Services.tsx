@@ -9,7 +9,7 @@ export async function Services({}: Props) {
   return (
     <div
       id="services"
-      className="container flex flex-col gap-8 p-8
+      className="container flex flex-col gap-8 p-8 scroll-m-16
       md:px-0"
     >
       <h2

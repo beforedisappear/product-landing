@@ -8,7 +8,7 @@ export async function Metrics({}: Props) {
   return (
     <section className="container flex flex-col p-8 gap-8">
       <h2
-        className="text-2xl font-semibold
+        className="text-2xl font-semibold scroll-m-14
         lg:text-center"
       >
         {metrics.title}

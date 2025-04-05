@@ -10,7 +10,8 @@ export async function Insights({}: Props) {
 
   return (
     <section
-      className="container flex flex-col gap-6 py-12
+      id="insights"
+      className="container flex flex-col gap-6 py-12 scroll-m-14
       sm:py-4"
     >
       <h2

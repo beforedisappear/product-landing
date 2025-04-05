@@ -11,7 +11,7 @@ import {
   DialogTrigger,
 } from "@/ui/Dialog/Dialog";
 
-import { use, useState, type ReactNode } from "react";
+import { use, type ReactNode } from "react";
 import { ContactUsForm } from "./ContactUsForm";
 import { ContactUsModalDict } from "./ContactUsModal.types";
 import { Context } from "@/providers/ContextProvider";

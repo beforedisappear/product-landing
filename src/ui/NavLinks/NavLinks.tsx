@@ -10,10 +10,10 @@ interface Props {
 
 const navLinkList = [
   { title: "Services", url: "#services" },
-  { title: "Our Approach", url: "#2" },
-  { title: "Pricing", url: "#3" },
-  { title: "Case Studies", url: "#4" },
-  { title: "Blog", url: "#5" },
+  { title: "Our Approach", url: "#formulas" },
+  { title: "Client Success Stories", url: "#stories" },
+  { title: "Blog", url: "#insights" },
+  { title: "Pricing", url: "#pricing" },
 ];
 
 export function NavLinks({ className, onClickOnLink }: Props) {
