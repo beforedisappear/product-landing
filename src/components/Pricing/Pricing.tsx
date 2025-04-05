@@ -39,12 +39,12 @@ export const Pricing = async () => {
         reiciendis.
       </h3> */}
 
-      <div className="grid grid-cols-3 gap-8 lg:grid-cols-1">
+      <div className="grid grid-cols-3 gap-8 lg:grid-cols-2 sm:grid-cols-1">
         {items.map((pricing, packageIndex) => (
           <Card
             key={pricing.title}
             className={cn("shadow-black/10 bg-transparent ", {
-              ["shadow-amber-500 shadow-[0_15px_60px_-5px_rgba(0,0,0,0.3)]"]:
+              ["shadow-amber-500 shadow-[0_5px_60px_-5px_rgba(0,0,0,0.3)]"]:
                 pricing.popular === 1,
             })}
           >
