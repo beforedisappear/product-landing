@@ -29,8 +29,8 @@ export function SuccessFormulasItem({ item }: Props) {
         md:static md:p-3"
       >
         <span
-          className="text-l w-fit bg-primary-foreground py-0.5 px-1 rounded-md
-          md:text-sm md:bg-transparent"
+          className="text-lg
+               md:text-sm"
         >
           {item.title}
         </span>
