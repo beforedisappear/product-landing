@@ -28,62 +28,66 @@ export const Pricing = async () => {
   } = await getDict();
 
   return (
-    <section
-      id="pricing"
-      className="container flex flex-col gap-6 py-12 scroll-m-14
-      sm:py-4"
-    >
-      <h2 className="text-2xl font-semibold text-center">{title}</h2>
-      {/* <h3 className="text-xl text-center text-muted-foreground pt-4 pb-8">
+    <div className="relative bg-muted/30 overflow-hidden">
+      <div className="absolute inset-0 -z-10 h-full w-fullbg-black bg-[linear-gradient(to_right,#1f1f1f_1px,transparent_1px),linear-gradient(to_bottom,#1f1f1f_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_50%,#000_40%,transparent_100%)]"></div>
+
+      <section
+        id="pricing"
+        className="container flex flex-col gap-6 py-12 scroll-m-14
+        sm:py-4"
+      >
+        <h2 className="text-2xl font-semibold text-center">{title}</h2>
+        {/* <h3 className="text-xl text-center text-muted-foreground pt-4 pb-8">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
         reiciendis.
       </h3> */}
 
-      <div className="grid grid-cols-3 gap-8 lg:grid-cols-2 sm:grid-cols-1">
-        {items.map((pricing, packageIndex) => (
-          <Card
-            key={pricing.title}
-            className={cn("shadow-black/10 bg-transparent ", {
-              ["shadow-amber-500 shadow-[0_5px_60px_-5px_rgba(0,0,0,0.3)]"]:
-                pricing.popular === 1,
-            })}
-          >
-            <CardHeader>
-              <CardTitle className="flex item-center justify-between">
-                {pricing.title}
-                {pricing.popular === 1 ? (
-                  <Badge variant="secondary" className="text-sm text-primary">
-                    Popular
-                  </Badge>
-                ) : null}
-              </CardTitle>
-              <div>
-                <span className="text-3xl font-bold">${pricing.price}</span>
-                <span className="text-muted-foreground"> /month</span>
-              </div>
+        <div className="grid grid-cols-3 gap-8 lg:grid-cols-2 sm:grid-cols-1 bg-card">
+          {items.map((pricing, packageIndex) => (
+            <Card
+              key={pricing.title}
+              className={cn("shadow-black/10 bg-transparent ", {
+                ["shadow-amber-500 shadow-[0_5px_40px_-5px_rgba(0,0,0,0.3)]"]:
+                  pricing.popular === 1,
+              })}
+            >
+              <CardHeader>
+                <CardTitle className="flex item-center justify-between">
+                  {pricing.title}
+                  {pricing.popular === 1 ? (
+                    <Badge variant="secondary" className="text-sm text-primary">
+                      Popular
+                    </Badge>
+                  ) : null}
+                </CardTitle>
+                <div>
+                  <span className="text-3xl font-bold">${pricing.price}</span>
+                  <span className="text-muted-foreground"> /month</span>
+                </div>
 
-              <CardDescription>{pricing.description}</CardDescription>
-            </CardHeader>
+                <CardDescription>{pricing.description}</CardDescription>
+              </CardHeader>
 
-            <CardContent>
-              <PricingBtn>{pricing.buttonText}</PricingBtn>
-            </CardContent>
+              <CardContent>
+                <PricingBtn>{pricing.buttonText}</PricingBtn>
+              </CardContent>
 
-            <hr className="w-4/5 m-auto mb-4" />
+              <hr className="w-4/5 m-auto mb-4" />
 
-            <CardFooter className="flex">
-              <div className="space-y-4">
-                {pricing.benefitList.map((benefit: string, index) => (
-                  <span key={benefit} className="flex">
-                    {packageIcons[packageIndex]?.[index]}{" "}
-                    <h3 className="ml-2">{benefit}</h3>
-                  </span>
-                ))}
-              </div>
-            </CardFooter>
-          </Card>
-        ))}
-      </div>
-    </section>
+              <CardFooter className="flex">
+                <div className="space-y-4">
+                  {pricing.benefitList.map((benefit: string, index) => (
+                    <span key={benefit} className="flex">
+                      {packageIcons[packageIndex]?.[index]}{" "}
+                      <h3 className="ml-2">{benefit}</h3>
+                    </span>
+                  ))}
+                </div>
+              </CardFooter>
+            </Card>
+          ))}
+        </div>
+      </section>
+    </div>
   );
 };
